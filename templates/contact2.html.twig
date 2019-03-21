@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <h1>Constraints and group sequence as annotations</h1>
+
+  <p>
+    Leave both input fields empty and press submit button<br><br>
+    <b>Expected:</b> Only first field should be validated<br>
+    <b>Result:</b> Only first field is validated<br>
+  </p>
+
+  {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+  {{ form_end(form) }}
+
+  <br>
+  <a href="{{ path('contact_1') }}">Constraints and group sequence in de form type &rarr;</a>
+{% endblock %}

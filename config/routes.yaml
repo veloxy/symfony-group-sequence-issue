@@ -1,3 +1,7 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+contact_1:
+    path: /contact-1
+    controller: App\Controller\ContactController::contact1Action
+
+contact_2:
+  path: /contact-2
+  controller: App\Controller\ContactController::contact2Action
