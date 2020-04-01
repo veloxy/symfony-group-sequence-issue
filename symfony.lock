@@ -11,17 +11,8 @@
             "config/routes/annotations.yaml"
         ]
     },
-    "doctrine/cache": {
-        "version": "v1.8.0"
-    },
-    "doctrine/collections": {
-        "version": "v1.5.0"
-    },
     "doctrine/common": {
         "version": "v2.10.0"
-    },
-    "doctrine/event-manager": {
-        "version": "v1.0.0"
     },
     "doctrine/inflector": {
         "version": "v1.3.0"
@@ -29,11 +20,8 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
-    "doctrine/persistence": {
-        "version": "v1.1.0"
-    },
-    "doctrine/reflection": {
-        "version": "v1.0.0"
+    "php": {
+        "version": "7.4"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -41,11 +29,11 @@
     "psr/container": {
         "version": "1.0.0"
     },
+    "psr/event-dispatcher": {
+        "version": "1.0.0"
+    },
     "psr/log": {
         "version": "1.1.0"
-    },
-    "psr/simple-cache": {
-        "version": "1.0.1"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -61,6 +49,9 @@
     },
     "symfony/cache": {
         "version": "v4.2.4"
+    },
+    "symfony/cache-contracts": {
+        "version": "v2.0.1"
     },
     "symfony/config": {
         "version": "v4.2.4"
@@ -78,20 +69,20 @@
             "config/bootstrap.php"
         ]
     },
-    "symfony/contracts": {
-        "version": "v1.0.2"
-    },
-    "symfony/debug": {
-        "version": "v4.2.4"
-    },
     "symfony/dependency-injection": {
         "version": "v4.2.4"
     },
     "symfony/dotenv": {
         "version": "v4.2.4"
     },
+    "symfony/error-handler": {
+        "version": "v4.4.7"
+    },
     "symfony/event-dispatcher": {
         "version": "v4.2.4"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v2.0.1"
     },
     "symfony/filesystem": {
         "version": "v4.2.4"
@@ -145,17 +136,26 @@
     "symfony/intl": {
         "version": "v4.2.4"
     },
+    "symfony/mime": {
+        "version": "v4.4.7"
+    },
     "symfony/options-resolver": {
         "version": "v4.2.4"
     },
     "symfony/polyfill-intl-icu": {
         "version": "v1.10.0"
     },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.15.0"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.10.0"
     },
     "symfony/polyfill-php72": {
         "version": "v1.10.0"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.15.0"
     },
     "symfony/profiler-pack": {
         "version": "v1.0.4"
@@ -178,8 +178,14 @@
             "config/routes.yaml"
         ]
     },
+    "symfony/service-contracts": {
+        "version": "v2.0.1"
+    },
     "symfony/stopwatch": {
         "version": "v4.2.4"
+    },
+    "symfony/translation-contracts": {
+        "version": "v2.0.1"
     },
     "symfony/twig-bridge": {
         "version": "v4.2.4"
